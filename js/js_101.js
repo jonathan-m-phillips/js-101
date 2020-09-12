@@ -25,3 +25,23 @@ fruits.push('tomato');
 // Exercise 6
 // add the string "tomato" onto the end of the vegetables array.
 vegetables.push('tomato');
+
+// Exercise 7
+// Given the array of numbers defined below, reverse the array of numbers that you created above.
+let someNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+someNumbers.reverse();
+
+// Exercise 8
+// Sort the vegetables in alphabetical order.
+vegetables.sort();
+
+// Exercise 9
+// Write the code necessary to sort the fruits in reverse alphabetical order
+fruits.sort();
+fruits.reverse();
+
+// Exercise 10
+// Write the code necessary to produce a single array that holds all fruits then all vegetables in the order as they were sorted above.
+// Assign the result to a variable named fruitsAndVeggies.
+let fruitsAndVegetables = fruits.concat(vegetables);
+console.log(fruitsAndVegetables);
