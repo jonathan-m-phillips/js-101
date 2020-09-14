@@ -71,3 +71,49 @@ function isNegative (num) {
         return false;
     }
 }
+
+// Exercise 14
+// Write a function definition named isOdd that takes in a number and returns true or false if that number is odd.
+function isOdd (num) {
+    if (num % 2 === 0) {
+        return false;
+    } else if (num % 2 !== 0) {
+        return true;
+    }
+}
+
+// Exercise 15
+// Write a function definition named isEven that takes in a number and returns true or false if that number is even.
+function isEven (num) {
+    if (num % 2 === 0) {
+        return true;
+    } else if (num % 2 !== 0) {
+        return false;
+    }
+}
+
+// Exercise 16
+// Write a function definition named identity that takes in any input and returns that input. Don't overthink this one!
+function identity (x) {
+    return x;
+}
+
+// Exercise 17
+// Write a function definition named isPositiveOdd that takes in a number and returns true or false if the value is both greater than zero and odd
+function isPositiveOdd (num) {
+    if (num > 0 && num % 2 !== 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+// Exercise 18
+// Write a function definition named isPositiveEven that takes in a number and returns true or false if the value is both greater than zero and even
+function isPositiveEven (num) {
+    if (num > 0 && num % 2 === 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
