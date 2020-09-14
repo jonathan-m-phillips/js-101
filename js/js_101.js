@@ -45,3 +45,29 @@ fruits.reverse();
 // Assign the result to a variable named fruitsAndVeggies.
 let fruitsAndVegetables = fruits.concat(vegetables);
 console.log(fruitsAndVegetables);
+
+// Exercise 11
+// Write a function definition for a function named addOne that takes in a number and returns that number plus one
+function addOne (x) {
+    return x + 1;
+}
+
+// Exercise 12
+// Write a function definition named isPositive that takes in a number and returns true or false if that number is positive.
+function isPositive (num) {
+    if (num > 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+// Exercise 13
+// Write a function definition named isNegative that takes in a number and returns true or False if that number is negative.
+function isNegative (num) {
+    if (num < 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
