@@ -117,3 +117,35 @@ function isPositiveEven (num) {
         return false;
     }
 }
+
+// Exercise 19
+// Write a function definition named isNegativeOdd that takes in a number and returns true or false if the value is both less than zero and odd.
+let isNegativeOdd = function (num) {
+    if (num < 0 && num % 2 !== 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+// Exercise 20
+// Write a function definition named isNegativeEven that takes in a number and returns true or false if the value is both less than zero and even.
+let isNegativeEven = function (num) {
+    if (num < 0 && num % 2 === 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+// Exercise 21
+// Write a function definition named half that takes in a number and returns half the provided number.
+let half = function (num) {
+    return num / 2;
+}
+
+// Exercise 22
+// Write a function definition named double that takes in a number and returns double the provided number.
+function double (x) {
+    return x * 2
+}
