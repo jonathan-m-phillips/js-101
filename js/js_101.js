@@ -147,5 +147,33 @@ let half = function (num) {
 // Exercise 22
 // Write a function definition named double that takes in a number and returns double the provided number.
 function double (x) {
-    return x * 2
+    return x * 2;
+}
+
+// Exercise 23
+// Write a function definition named triple that takes in a number and returns triple the provided number.
+function triple (x) {
+    return x * 3;
+}
+
+// Exercise 24
+// Write a function definition named reverseSign that takes in a number and returns the provided number but with the sign reversed.
+function reverseSign (x) {
+    return x * -1;
+}
+
+// Exercise 25
+// Write a function definition named absoluteValue that takes in a number and returns the absolute value of the provided number
+function absoluteValue (x) {
+    return x = Math.abs(x);
+}
+
+// Exercise 26
+// Write a function definition named isMultipleOfThree that takes in a number and returns true or false if the number is evenly divisible by 3.
+function isMultipleOfThree (x) {
+    if (x % 3  === 0) {
+        return true;
+    } else {
+        return false;
+    }
 }
