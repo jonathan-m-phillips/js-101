@@ -177,3 +177,29 @@ function isMultipleOfThree (x) {
         return false;
     }
 }
+
+// Exercise 27
+// Write a function definition named isMultipleOfFive that takes in a number and returns true or false if the number is evenly divisible by 5.
+function isMultipleOfFive (x) {
+    if (x % 5 === 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+// Exercise 28
+// Write a function definition named isMultipleOfBothThreeAndFive that takes in a number and returns true or false if the number is evenly divisible by both 3 and 5.
+function isMultipleOfBothThreeAndFive (x) {
+    if (x % 3 === 0 && x % 5 === 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+// Exercise 29
+// Write a function definition named square that takes in a number and returns the number times itself.
+function square (x) {
+    return x * x;
+}
