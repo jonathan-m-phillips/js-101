@@ -217,3 +217,8 @@ let cube = function (num) {
     return Math.pow(num, 3);
 }
 
+// Exercise 32
+// Write a function definition named squareRoot that takes in a number and returns the square root of the provided number
+let squareRoot = function (num) {
+    return Math.sqrt(num);
+}
