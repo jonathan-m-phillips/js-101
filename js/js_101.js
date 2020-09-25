@@ -209,3 +209,11 @@ function square (x) {
 let add = function (num1, num2) {
     return num1 + num2;
 }
+
+// Exercise 31
+// Write a function definition named cube that takes in a number and returns the number times itself, times itself.
+let cube = function (num) {
+    // return num * num * num;
+    return Math.pow(num, 3);
+}
+
