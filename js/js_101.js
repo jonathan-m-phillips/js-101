@@ -234,3 +234,10 @@ let subtract = function (num1, num2) {
 let multiply = function (num1, num2) {
     return num1 * num2;
 }
+
+// Exercise 35
+// Write a function definition named divide that takes in two numbers and returns the first argument divided by the second argument.
+let divide = function (num1, num2) {
+    return num1 / num2;
+}
+
