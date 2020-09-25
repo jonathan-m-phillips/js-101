@@ -229,3 +229,8 @@ let subtract = function (num1, num2) {
     return num1 - num2;
 }
 
+// Exercise 34
+// Write a function definition named multiply that takes in two numbers and returns the first times the second argument.
+let multiply = function (num1, num2) {
+    return num1 * num2;
+}
