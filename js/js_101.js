@@ -247,3 +247,8 @@ let quotient = function (num1, num2) {
     return Math.floor(num1 / num2);
 }
 
+// Exercise 37
+// Write a function definition named remainder that takes in two numbers and returns the remainder of first argument divided by the second argument.
+let remainder = function (num1, num2) {
+    return num1 % num2;
+}
