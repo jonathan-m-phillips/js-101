@@ -241,3 +241,9 @@ let divide = function (num1, num2) {
     return num1 / num2;
 }
 
+// Exercise 36
+// Write a function definition named quotient that takes in two numbers and returns the quotient of dividing the first argument by the second argument.
+let quotient = function (num1, num2) {
+    return Math.floor(num1 / num2);
+}
+
