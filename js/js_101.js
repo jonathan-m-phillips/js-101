@@ -203,3 +203,9 @@ function isMultipleOfBothThreeAndFive (x) {
 function square (x) {
     return x * x;
 }
+
+// Exercise 30
+// Write a function definition named add that takes in two numbers and returns the sum.
+let add = function (num1, num2) {
+    return num1 + num2;
+}
