@@ -222,3 +222,10 @@ let cube = function (num) {
 let squareRoot = function (num) {
     return Math.sqrt(num);
 }
+
+// Exercise 33
+// Write a function definition named subtract that takes in two numbers and returns the first minus the second argument.
+let subtract = function (num1, num2) {
+    return num1 - num2;
+}
+
