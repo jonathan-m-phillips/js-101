@@ -261,3 +261,11 @@ function sumOfSquares (x, y) {
     return x + y;
 }
 
+// Exercise 39
+// Write a function definition named timesTwoPlusThree that takes in a number, multiplies it by two, adds 3 and returns the result.
+let timesTwoPlusThree = function (x) {
+    x = x * 2;
+    x = x + 3;
+    return x;
+}
+
