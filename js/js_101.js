@@ -274,3 +274,10 @@ let timesTwoPlusThree = function (x) {
 function areaOfRectangle (x, y) {
     return x * y;
 }
+
+// Exercise 41
+// Write a function definition named areaOfCircle that takes in a number representing a circle's radius and returns the area of the circle
+function areaOfCircle (x) {
+    x = (x * x) * Math.PI;
+    return x;
+}
