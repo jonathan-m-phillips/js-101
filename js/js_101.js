@@ -281,3 +281,10 @@ function areaOfCircle (x) {
     x = (x * x) * Math.PI;
     return x;
 }
+
+// Exercise 42
+// Write a function definition named circumference that takes in a number representing a circle's radius and returns the circumference.
+let circumference = function (x) {
+    x = (x * 2) * Math.PI;
+    return x;
+}
