@@ -269,3 +269,8 @@ let timesTwoPlusThree = function (x) {
     return x;
 }
 
+// Exercise 40
+// Write a function definition named areaOfRectangle that takes in two numbers and returns the product.
+function areaOfRectangle (x, y) {
+    return x * y;
+}
