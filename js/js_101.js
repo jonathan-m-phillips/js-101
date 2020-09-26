@@ -252,3 +252,12 @@ let quotient = function (num1, num2) {
 let remainder = function (num1, num2) {
     return num1 % num2;
 }
+
+// Exercise 38
+// Write a function definition named sumOfSquares that takes in two numbers, squares each number, then returns the sum of both squares.
+function sumOfSquares (x, y) {
+    x = x*x;
+    y = y*y;
+    return x + y;
+}
+
