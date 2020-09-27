@@ -298,3 +298,9 @@ let isVowel = function (x) {
         return false;
     }
 }
+
+// Exercise 44
+// Write a function definition named hasVowels that takes in value and returns true if the string contains any vowels.
+function hasVowels(str){
+    return "aeiouAEIOU".split("").some( s => str.includes(s) );
+}
