@@ -304,3 +304,17 @@ let isVowel = function (x) {
 function hasVowels(str){
     return "aeiouAEIOU".split("").some( s => str.includes(s) );
 }
+
+// Exercise 45
+// Write a function definition named countVowels that takes in value and returns the count of the nubmer of vowels in a sequence.
+function countVowels(str) {
+    var vowels = "aeiou";
+    var count = 0;
+
+    for (var i = 0; i < str.length; i++){
+        if (vowels.indexOf(str[i].toLowerCase()) > -1) {
+            count++;
+        }
+    }
+    return count;
+}
