@@ -352,3 +352,9 @@ let startsAndEndsWithVowel (str) {
     return isVowel(str[0]);
     return isVowel((str[str.length - 1]));
 }
+
+// Exercise 50
+// Write a function definition named first that takes in sequence and returns the first value of that sequence.
+let first = function (seq) {
+    return seq[0];
+}
