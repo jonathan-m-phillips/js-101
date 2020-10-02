@@ -333,3 +333,10 @@ function removeVowels (str) {
     }
     return result;
 }
+
+// Exercise 47
+// Write a function definition named startsWithVowel that takes in string and true if the string starts with a vowel
+let startsWithVowel = function (str) {
+    return isVowel(str[0]);
+}
+
