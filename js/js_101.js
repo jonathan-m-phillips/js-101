@@ -318,3 +318,18 @@ function countVowels(str) {
     }
     return count;
 }
+
+// Exercise 46
+// Write a function definition named removeVowels that takes in string and returns the string without any vowels
+function removeVowels (str) {
+    let result = "";
+
+    for (let i = 0; i < str.length; i++) {
+        let x = str[i];
+
+        if ("aeiou".match(x.toLowerCase()) === null) {
+            result += x;
+        }
+    }
+    return result;
+}
