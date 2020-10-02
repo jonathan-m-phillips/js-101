@@ -345,3 +345,10 @@ let startsWithVowel = function (str) {
 let endsWithVowel = function (str) {
     return isVowel(str[str.length - 1]);
 }
+
+// Exercise 49
+// Write a function definition named startsAndEndsWithVowel that takes in string and returns true if the string starts and ends with a vowel
+let startsAndEndsWithVowel (str) {
+    return isVowel(str[0]);
+    return isVowel((str[str.length - 1]));
+}
