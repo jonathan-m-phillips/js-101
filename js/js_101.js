@@ -358,3 +358,10 @@ let startsAndEndsWithVowel (str) {
 let first = function (seq) {
     return seq[0];
 }
+
+// Exercise 51
+// Write a function definition named second that takes in sequence and returns the second value of that sequence.
+function second (seq) {
+
+    return seq[1];
+}
