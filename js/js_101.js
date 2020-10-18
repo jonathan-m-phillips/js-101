@@ -362,6 +362,11 @@ let first = function (seq) {
 // Exercise 51
 // Write a function definition named second that takes in sequence and returns the second value of that sequence.
 function second (seq) {
-
     return seq[1];
+}
+
+// Exercise 52
+// Write a function definition named third that takes in sequence and returns the third value of that sequence.
+function third (seq) {
+    return seq[2];
 }
