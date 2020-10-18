@@ -370,3 +370,9 @@ function second (seq) {
 function third (seq) {
     return seq[2];
 }
+
+// Exercise 53
+// Write a function definition named forth that takes in sequence and returns the forth value of that sequence.
+function forth (seq) {
+    return seq [3];
+}
