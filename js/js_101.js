@@ -382,3 +382,9 @@ function forth (seq) {
 let last = function (seq) {
     return seq[seq.length-1];
 }
+
+// Exercise 55
+// Write a function definition named secondToLast that takes in sequence and returns the second to last value of that sequence.
+let secondToLast = function (seq) {
+    return seq[seq.length-2];
+}
