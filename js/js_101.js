@@ -376,3 +376,9 @@ function third (seq) {
 function forth (seq) {
     return seq [3];
 }
+
+// Exercise 54
+// Write a function definition named last that takes in sequence and returns the last value of that sequence.
+let last = function (seq) {
+    return seq[seq.length-1];
+}
