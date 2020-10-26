@@ -388,3 +388,9 @@ let last = function (seq) {
 let secondToLast = function (seq) {
     return seq[seq.length-2];
 }
+
+// Exercise 56
+// Write a function definition named thirdToLast that takes in sequence and returns the third to last value of that sequence.
+let thirdToLast = function (seq) {
+    return seq[seq.length-3];
+}
